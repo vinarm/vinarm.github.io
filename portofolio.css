@@ -1,0 +1,12 @@
+h1 {
+    background-color:cornflowerblue;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.utama{
+    background-color: yellow;
+}
