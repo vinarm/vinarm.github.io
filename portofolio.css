@@ -1,7 +1,3 @@
-h1 {
-    background-color:cornflowerblue;
-}
-
 table {
     border-collapse: collapse;
     table-layout: fixed;
@@ -9,4 +5,33 @@ table {
 
 .utama{
     background-color: yellow;
+}
+
+a{
+    text-decoration: none; 
+    font-size: 20px;
+    font-family:'Courier New', Courier;
+    padding: 14px 10px;
+}
+.navi ul{
+    padding: 14px;
+}
+.navi li{
+    list-style: none; 
+    display: inline;
+}
+.navi li a{
+    background: #222; 
+    color:#d4d4d4;
+}
+.navi li a:hover{
+    background: #4da4ff; 
+    color:#fff;
+}
+.navi{
+    background: #222; 
+    height: 55px;
+}
+h1 {
+    text-align: center;
 }

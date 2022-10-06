@@ -1,14 +1,33 @@
-h1{
-    margin: 0;
-    padding: 10px;
-    width: 30%;
-    overflow: hidden;
-    background-color: burlywood;
+a{
+    text-decoration: none; 
+    font-size: 20px;
+    font-family:'Courier New', Courier;
+    padding: 14px 10px;
 }
-h2 {
-    margin: 0;
-    padding: 10px;
-    width: 30%;
-    overflow: hidden;
-    background-color: burlywood;
+.navi ul{
+    padding: 14px;
+}
+.navi li{
+    list-style: none; 
+    display: inline;
+}
+.navi li a{
+    background: #222; 
+    color:#d4d4d4;
+}
+.navi li a:hover{
+    background: #4da4ff; 
+    color:#fff;
+}
+.navi{
+    background: #222; 
+    height: 55px;
+}
+h1 {
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
