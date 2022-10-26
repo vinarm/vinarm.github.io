@@ -4,62 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portofolio.css">
-    <title>My Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/websiteku.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,400;1,100&display=swap" rel="stylesheet">
+    
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="portofolio.css"> -->
 </head>
 <body>
-    <nav class="navi">
-        <ul>
-            <li><a href="prak.html">Beranda</a></li>
-            <li><a href="portofolio.html">Portofolio</a></li>
-            <li><a href="https://web.telegram.org/k/">Kontak</a></li>
-        </ul>
-    </nav>
-    
-    <br>
-    <br>
+    <!-- <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#about">Vina Rahmatul <span>M.</span></a></div>
+            <ul class="menu">
+                <li><a href="index.html" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">Profile</a></li></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="portofolio.html" class="menu-btn">Portofolio</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav> -->
 
-    <center><img src="image/me.jpg" alt="VR" width="196" height="198"></center>
+    <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Vina Rahmatul M</a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" class="navbar-nav-btn">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" class="navbar-nav-btn">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills" class="navbar-nav-btn">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portofolio.html" class="navbar-nav-btn">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" class="navbar-nav-btn">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <h2 align="center">TENTANG SAYA</h2>
-    <p align="center">Saya Vina Rahmatul Muflikha merupakan salah satu mahasiswa Politeknik Negeri Banyuwangi dari jurusan
-        Teknologi Rekayasa Perangkat Lunak. Saya kelahiran 14 Juli 2001 di Banyuwangi dan bertempat di kecamatan
-        Genteng. Usia saya 21 tahun dan impian besar saya yaitu bisa bertemu dengan BTS atau liburan ke Korea.</p>
-    <br>
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+          <div class="home-content">
+                <div class="text-1">Hello, I am</div>
+                <div class="text-2">Vina Rahmatul M </div>
+            </div>
+        </div>
+    </section>
 
-    <h2 align="center">PENDIDIKAN</h2>
+    <!-- about section start -->
+    <section class="educ" id="educ">
+        <div class="max-width">
+            <h2 class="title">My Education</h2>
+            <div class="educ-content">
+                <table border="1" align="center" cellpadding="10">
+                    <tr align="center">
+                        <th>Gambar</th>
+                        <th>Sekolah/Perguruan Tinggi</th>
+                        <th>Tahun</th>
+                    </tr>
+                    <tr align="center">
+                        <td><img src="image/sd.jpg" alt="sd" width="100" height="100"></td>
+                        <td>SDN 1 Genteng Kulon</td>
+                        <td>2008-2014</td>
+                    </tr>
+                    <tr align="center">
+                        <td><img src="image/smp.jpg" alt="smp" width="100" height="100"></td>
+                        <td>SMP BUSTANUL MAKMUR</td>
+                        <td>2014-2017</td>
+                    </tr>
+                    <tr align="center">
+                        <td><img src="image/sma.jpg" alt="sma" width="100" height="100"></td>
+                        <td>SMA 2 TARUNA BHAYANGKARA</td>
+                        <td>2017-2020</td>
+                    </tr>
+                    <tr align="center">
+                        <td><img src="image/final.jpg" alt="final" width="100" height="100"></td>
+                        <td>POLITEKNIK NEGERI BANYUWANGI</td>
+                        <td>2020-Sekarang</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
     <table border="1" align="center" cellpadding="10">
-        <tr class="utama" align="center">
-            <th>Gambar</th>
-            <th>Sekolah/Perguruan Tinggi</th>
-            <th>Tahun</th>
-        </tr>
         <tr align="center">
-            <td><img src="image/sd.jpg" alt="sd" width="100" height="100"></td>
-            <td>SDN 1 Genteng Kulon</td>
-            <td>2008-2014</td>
-        </tr>
-        <tr align="center">
-            <td><img src="image/smp.jpg" alt="smp" width="100" height="100"></td>
-            <td>SMP BUSTANUL MAKMUR</td>
-            <td>2014-2017</td>
-        </tr>
-        <tr align="center">
-            <td><img src="image/sma.jpg" alt="sma" width="100" height="100"></td>
-            <td>SMA 2 TARUNA BHAYANGKARA</td>
-            <td>2017-2020</td>
-        </tr>
-        <tr align="center">
-            <td><img src="image/final.jpg" alt="final" width="100" height="100"></td>
-            <td>POLITEKNIK NEGERI BANYUWANGI</td>
-            <td>2020-Sekarang</td>
-        </tr>
-    </table>
-    <br>
-
-    <h2 align="center">PENGALAMAN</h2>
-    <table border="1" align="center" cellpadding="10">
-        <tr class="utama" align="center">
             <th>Gambar</th>
             <th>Organisasi</th>
             <th>Tahun</th>
@@ -95,6 +142,11 @@
             <td>2020-2021</td>
         </tr>
     </table>
-    <br>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By Vina Rahmatul Muflikha | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+    </footer>
+
 </body>
 </html>

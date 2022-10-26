@@ -4,46 +4,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="prak.css">
-    <title>My Bio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/websiteku.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,400;1,100&display=swap" rel="stylesheet">
+    
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-    <body>
-        <nav class="navi">
-            <ul>
-                <li><a href="prak.html">Beranda</a></li>
-                <li><a href="portofolio.html">Portofolio</a></li>
-                <li><a href="https://web.telegram.org/k/">Kontak</a></li>
+<body>
+    <!-- <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#about">Vina Rahmatul <span>M.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">Profile</a></li></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="portofolio.html" class="menu-btn">Portofolio</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
-        </nav>
-        
-        <h1>Vina Rahmatul Muflikha</h1>
-        <br>
-        <br>
-        <img src="image/me.jpg" alt="VR" width="333" height="333">
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav> -->
 
-        <br>
-        <h2>Tentang Saya</h2>
-        <p>Saya Vina Rahmatul Muflikha merupakan salah satu mahasiswa Politeknik Negeri Banyuwangi dari jurusan
-        Teknologi Rekayasa Perangkat Lunak. Saya kelahiran 14 Juli 2001 di Banyuwangi dan bertempat di kecamatan
-        Genteng. Usia saya 21 tahun dan impian besar saya yaitu bisa bertemu dengan BTS atau liburan ke Korea.</p>
+    <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#about">Vina Rahmatul M</a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home" class="navbar-nav-btn">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" class="navbar-nav-btn">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills" class="navbar-nav-btn">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portofolio.html" class="navbar-nav-btn">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" class="navbar-nav-btn">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-        <h2>Keahlian Saya</h2>
-        <ul>
-            <li>UI/UX Designer</li>
-            <li>Desain/Edit Foto</li>
-            <li>Gambar</li>
-        </ul>
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+          <div class="home-content">
+                <div class="text-1">Hello, I am</div>
+                <div class="text-2">Vina Rahmatul M </div>
+            </div>
+        </div>
+    </section>
 
-        <h2>Pendidikan Saya</h2>
-        <ul>
-            <li>2008-2013 SDN 1 Genteng Kulon</li>
-            <li>2013-2017 SMP Bustanul Makmur</li>
-            <li>2017-2020 SMAN 2 TARUNA BHAYANGKARA</li>
-            <li>2020-sekarang Politeknik Negeri Banyuwangi</li>
-        </ul>
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">My Profile</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <div class="text">Who is Me?</div>
+                      <p>I am Vina Rahmatul Muflikha, a student of the Banyuwangi State Polytechnic from the Department of
+                        Software Engineering Technology. I was born July 14, 2001 in Banyuwangi and located in the district
+                        Rooftile. I am 21 years old and my big dream is to meet BTS or go on vacation to Korea.</p>
+                </div>
+                <div class="column right">
+                    <img src="https://i.ibb.co/R3nvN2y/me.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <h2>Kontak Saya</h2>
-        <p><a href="https://web.telegram.org/k/">Telegram</a></p>
-        <p><a href="portofolio.html">Portofolio</a></p>
-    </body>
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">What are my skills?</div>
+                    <p>The ability that I have is being able to make analysis in research according to accurate data, using several programming languages ​​that I have learned and besides that I can also draw and design skills that interest me.</p>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>UI/UX Designer</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Design</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line design"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">My Contact</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                               <div class="head">Name</div>
+                                <div class="sub-title">Vina Rahmatul Muflikha</div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Gang Yasin, RT 01/ RW 06, Desa Genteng Wetan, Kecamatan Genteng, Banyuwangi</div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <i class="fas fa-envelope"></i>
+                              <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">tulvinarahma@gmail.com</div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <i class="fas fa-phone"></i>
+                              <div class="info">
+                                <div class="head">Whatsapp</div>
+                                <div class="sub-title">081237810301</div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <img src="https://i.ibb.co/mbB8yFk/saya.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By Vina Rahmatul Muflikha | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+    </footer>
+
+</body>
 </html>
